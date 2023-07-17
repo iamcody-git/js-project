@@ -1,0 +1,33 @@
+.timerBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(27, 138, 40);
+    color: white;
+    cursor: pointer;
+    
+}
+.timerDisplay{
+    font-size: 100px;
+    color: greenyellow;
+
+}
+#container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 200px;
+}
+body{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}

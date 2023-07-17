@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formtry</title>
+</head>
+<style>
+    *{
+        margin: 3px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    h4{
+       color: rgb(112, 3, 112);
+    }
+    .container{
+        background-color: rgb(64, 163, 94);
+        text-align: center;
+        align-items: center; 
+        border: 2px solid blueviolet;
+        height: 30%;
+        width: 30%;
+        padding: 50px;
+        margin: 10px;
+    }
+    .button{
+        background-color: rgb(111, 101, 181);
+        color: antiquewhite;
+
+    }
+    .button:hover{
+        background-color:rgb(44, 189, 54);
+    }
+</style>
+<body>
+    <div class="container">
+        <form name="signUp" method="POST" action="">
+           <h4>CREATE ACCOUNT</h4><br>
+           <label>UserName:</label><br>
+           <input type="text" id="name-input" name="name" placeholder="enter your fullName" required>
+           <br>
+           <label>Email:</label><br>
+           <input type="email" id="email-input" name="email" placeholder="enter your email" required>
+           <br>
+           <label>PassWord:</label><br>
+           <input type="password" id="password-input" name="password" placeholder="**********" required>
+           <br><br>
+           <button class="button" id="submit-input">Submit</button>
+
+        </form>
+    </div>
+
+    <script>
+         let signUp = document.forms.signUp;
+         let name = forms.name;
+         let email = forms.email;
+         let password = forms.password;
+         let submit = document.getElementById('submit-input');
+
+         submit.addEventListener('click',function(e){
+            e.preventDefault();
+         });
+
+         if(name.value.trim()==){
+            let nameGroup = document.getElementById('name-group');
+         }
+
+    </script>
+</body>
+</html>

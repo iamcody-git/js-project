@@ -1,0 +1,9 @@
+.container,h1{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+body{
+    background-color: aquamarine;
+}

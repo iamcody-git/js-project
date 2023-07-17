@@ -1,0 +1,28 @@
+#game{
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    width: 500px;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    border-radius: 20px;
+}
+#player{
+    color: blueviolet;
+}
+#computer{
+    color:rgb(0, 0, 255);
+}
+#result{
+    color: brown;
+}
+body{
+    background-color: rgb(144, 151, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
